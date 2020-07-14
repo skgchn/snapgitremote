@@ -10,4 +10,4 @@ git branch -r |\
         git branch --track "${remote#origin/}" "$remote";
     done
 
-git pull -all
+git pull --all
