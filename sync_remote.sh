@@ -2,7 +2,7 @@
 
 # Idea: https://www.w3docs.com/snippets/git/how-to-fetch-all-git-branches.html
 
-git fetch --all
+git fetch --prune --all
 
 git branch -r |\
     grep -v '\->' |\
